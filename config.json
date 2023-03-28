@@ -1,0 +1,50 @@
+{
+  "options": [
+    {
+    "name" : "DEATH",
+    "desc" : "**What happens when a player dies?**",
+    "choices": ["They go unconcious and can sleep to wake up","They are dead and must be revived to wake as their dream selves"],
+    "selection": 0
+    },{
+    "name" : "CHANNELS",
+    "desc" : "**How many channels are made when a player registers?***",
+    "choices": ["One, just their terminal","Two, their terminal and perstercord channel","Zero, make the current channel their terminal"],
+    "selection": 0
+  },{
+    "name" : "TUTORIAL",
+    "desc" : "**Does every player start with the tutorial enabled?**",
+    "choices": ["Yes","No"],
+    "selection": 0
+  },{
+    "name" : "RETAIN",
+    "desc" : "**Do creatures hold on to leftover stamina from their last turn by default?**",
+    "choices": ["Yes","No"],
+    "selection": 0
+  },{
+      "name" : "SELFCONNECT",
+      "desc" : "**Can players connect to themselves?**",
+      "choices": ["Yes","No"],
+      "selection": 0
+  },{
+      "name" : "FOG",
+      "desc" : "**Is there a Fog of War on player's planets?**",
+      "choices": ["Yes","No"],
+      "selection": 0
+  },{
+      "name" : "IMMORTAL",
+      "desc" : "**How do godtier players revive if killed?**",
+      "choices": ["They come back to life after 5 minutes","A DM/Author is summoned to judge their fate"],
+      "selection": 0
+  },{
+      "name" : "GRIST",
+      "desc" : "**What is the grist multiplier?**",
+      "choices": ["x1","x2","x1/2 (warning, terrible)"],
+      "selection": 0
+  },{
+      "name" : "TRINKETS",
+      "desc" : "**What bonuses are provided by trinkets?**",
+      "choices": ["No bonuses, only the traits","To-hit bonuses for all trinkets","To-hit for glasses, initiative for shoes, and occasional AV for hats."],
+      "selection": 0
+  }
+]
+}
